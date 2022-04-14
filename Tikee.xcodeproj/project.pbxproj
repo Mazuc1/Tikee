@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF3C03AB280871460023FBAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3C03AA280871460023FBAF /* AppDelegate.swift */; };
+		CF3C03AD280871460023FBAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3C03AC280871460023FBAF /* SceneDelegate.swift */; };
+		CF3C03AF280871460023FBAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3C03AE280871460023FBAF /* ViewController.swift */; };
+		CF3C03B2280871460023FBAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3C03B0280871460023FBAF /* Main.storyboard */; };
+		CF3C03B4280871490023FBAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3C03B3280871490023FBAF /* Assets.xcassets */; };
+		CF3C03B7280871490023FBAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3C03B5280871490023FBAF /* LaunchScreen.storyboard */; };
+		CF3C03C2280871490023FBAF /* TikeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3C03C1280871490023FBAF /* TikeeTests.swift */; };
+		CF3C03CC280871490023FBAF /* TikeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3C03CB280871490023FBAF /* TikeeUITests.swift */; };
+		CF3C03CE280871490023FBAF /* TikeeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3C03CD280871490023FBAF /* TikeeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF3C03BE280871490023FBAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF3C039F280871460023FBAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3C03A6280871460023FBAF;
+			remoteInfo = Tikee;
+		};
+		CF3C03C8280871490023FBAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF3C039F280871460023FBAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3C03A6280871460023FBAF;
+			remoteInfo = Tikee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF3C03A7280871460023FBAF /* Tikee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tikee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3C03AA280871460023FBAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF3C03AC280871460023FBAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CF3C03AE280871460023FBAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF3C03B1280871460023FBAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF3C03B3280871490023FBAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF3C03B6280871490023FBAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF3C03B8280871490023FBAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3C03BD280871490023FBAF /* TikeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3C03C1280871490023FBAF /* TikeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikeeTests.swift; sourceTree = "<group>"; };
+		CF3C03C7280871490023FBAF /* TikeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3C03CB280871490023FBAF /* TikeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikeeUITests.swift; sourceTree = "<group>"; };
+		CF3C03CD280871490023FBAF /* TikeeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikeeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF3C03A4280871460023FBAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3C03BA280871490023FBAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3C03C4280871490023FBAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF3C039E280871460023FBAF = {
+			isa = PBXGroup;
+			children = (
+				CF3C03A9280871460023FBAF /* Tikee */,
+				CF3C03C0280871490023FBAF /* TikeeTests */,
+				CF3C03CA280871490023FBAF /* TikeeUITests */,
+				CF3C03A8280871460023FBAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF3C03A8280871460023FBAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF3C03A7280871460023FBAF /* Tikee.app */,
+				CF3C03BD280871490023FBAF /* TikeeTests.xctest */,
+				CF3C03C7280871490023FBAF /* TikeeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF3C03A9280871460023FBAF /* Tikee */ = {
+			isa = PBXGroup;
+			children = (
+				CF3C03AA280871460023FBAF /* AppDelegate.swift */,
+				CF3C03AC280871460023FBAF /* SceneDelegate.swift */,
+				CF3C03AE280871460023FBAF /* ViewController.swift */,
+				CF3C03B0280871460023FBAF /* Main.storyboard */,
+				CF3C03B3280871490023FBAF /* Assets.xcassets */,
+				CF3C03B5280871490023FBAF /* LaunchScreen.storyboard */,
+				CF3C03B8280871490023FBAF /* Info.plist */,
+			);
+			path = Tikee;
+			sourceTree = "<group>";
+		};
+		CF3C03C0280871490023FBAF /* TikeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF3C03C1280871490023FBAF /* TikeeTests.swift */,
+			);
+			path = TikeeTests;
+			sourceTree = "<group>";
+		};
+		CF3C03CA280871490023FBAF /* TikeeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF3C03CB280871490023FBAF /* TikeeUITests.swift */,
+				CF3C03CD280871490023FBAF /* TikeeUITestsLaunchTests.swift */,
+			);
+			path = TikeeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF3C03A6280871460023FBAF /* Tikee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3C03D1280871490023FBAF /* Build configuration list for PBXNativeTarget "Tikee" */;
+			buildPhases = (
+				CF3C03A3280871460023FBAF /* Sources */,
+				CF3C03A4280871460023FBAF /* Frameworks */,
+				CF3C03A5280871460023FBAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tikee;
+			productName = Tikee;
+			productReference = CF3C03A7280871460023FBAF /* Tikee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF3C03BC280871490023FBAF /* TikeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3C03D4280871490023FBAF /* Build configuration list for PBXNativeTarget "TikeeTests" */;
+			buildPhases = (
+				CF3C03B9280871490023FBAF /* Sources */,
+				CF3C03BA280871490023FBAF /* Frameworks */,
+				CF3C03BB280871490023FBAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF3C03BF280871490023FBAF /* PBXTargetDependency */,
+			);
+			name = TikeeTests;
+			productName = TikeeTests;
+			productReference = CF3C03BD280871490023FBAF /* TikeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF3C03C6280871490023FBAF /* TikeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3C03D7280871490023FBAF /* Build configuration list for PBXNativeTarget "TikeeUITests" */;
+			buildPhases = (
+				CF3C03C3280871490023FBAF /* Sources */,
+				CF3C03C4280871490023FBAF /* Frameworks */,
+				CF3C03C5280871490023FBAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF3C03C9280871490023FBAF /* PBXTargetDependency */,
+			);
+			name = TikeeUITests;
+			productName = TikeeUITests;
+			productReference = CF3C03C7280871490023FBAF /* TikeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF3C039F280871460023FBAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					CF3C03A6280871460023FBAF = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					CF3C03BC280871490023FBAF = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = CF3C03A6280871460023FBAF;
+					};
+					CF3C03C6280871490023FBAF = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = CF3C03A6280871460023FBAF;
+					};
+				};
+			};
+			buildConfigurationList = CF3C03A2280871460023FBAF /* Build configuration list for PBXProject "Tikee" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF3C039E280871460023FBAF;
+			productRefGroup = CF3C03A8280871460023FBAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF3C03A6280871460023FBAF /* Tikee */,
+				CF3C03BC280871490023FBAF /* TikeeTests */,
+				CF3C03C6280871490023FBAF /* TikeeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF3C03A5280871460023FBAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3C03B7280871490023FBAF /* LaunchScreen.storyboard in Resources */,
+				CF3C03B4280871490023FBAF /* Assets.xcassets in Resources */,
+				CF3C03B2280871460023FBAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3C03BB280871490023FBAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3C03C5280871490023FBAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF3C03A3280871460023FBAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3C03AF280871460023FBAF /* ViewController.swift in Sources */,
+				CF3C03AB280871460023FBAF /* AppDelegate.swift in Sources */,
+				CF3C03AD280871460023FBAF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3C03B9280871490023FBAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3C03C2280871490023FBAF /* TikeeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3C03C3280871490023FBAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3C03CC280871490023FBAF /* TikeeUITests.swift in Sources */,
+				CF3C03CE280871490023FBAF /* TikeeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF3C03BF280871490023FBAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3C03A6280871460023FBAF /* Tikee */;
+			targetProxy = CF3C03BE280871490023FBAF /* PBXContainerItemProxy */;
+		};
+		CF3C03C9280871490023FBAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3C03A6280871460023FBAF /* Tikee */;
+			targetProxy = CF3C03C8280871490023FBAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF3C03B0280871460023FBAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3C03B1280871460023FBAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF3C03B5280871490023FBAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3C03B6280871490023FBAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF3C03CF280871490023FBAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF3C03D0280871490023FBAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF3C03D2280871490023FBAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6L49G5QS6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tikee/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Boublo.Tikee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF3C03D3280871490023FBAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6L49G5QS6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tikee/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Boublo.Tikee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF3C03D5280871490023FBAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6L49G5QS6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Boublo.TikeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tikee.app/Tikee";
+			};
+			name = Debug;
+		};
+		CF3C03D6280871490023FBAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6L49G5QS6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Boublo.TikeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tikee.app/Tikee";
+			};
+			name = Release;
+		};
+		CF3C03D8280871490023FBAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6L49G5QS6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Boublo.TikeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tikee;
+			};
+			name = Debug;
+		};
+		CF3C03D9280871490023FBAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6L49G5QS6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Boublo.TikeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tikee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF3C03A2280871460023FBAF /* Build configuration list for PBXProject "Tikee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3C03CF280871490023FBAF /* Debug */,
+				CF3C03D0280871490023FBAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3C03D1280871490023FBAF /* Build configuration list for PBXNativeTarget "Tikee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3C03D2280871490023FBAF /* Debug */,
+				CF3C03D3280871490023FBAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3C03D4280871490023FBAF /* Build configuration list for PBXNativeTarget "TikeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3C03D5280871490023FBAF /* Debug */,
+				CF3C03D6280871490023FBAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3C03D7280871490023FBAF /* Build configuration list for PBXNativeTarget "TikeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3C03D8280871490023FBAF /* Debug */,
+				CF3C03D9280871490023FBAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF3C039F280871460023FBAF /* Project object */;
+}
